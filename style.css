@@ -1,4 +1,6 @@
-body{
+/* Frame */
+
+body{ /* 전체페이지 색상 */
     background-color: blanchedalmond;
     
 }
@@ -9,6 +11,7 @@ body{
     flex-direction: column;
 }
 
+/* Navigator */
 .navigator{
     display: flex;
     flex-direction:row;
@@ -41,93 +44,11 @@ ul{
     font-family: 'Courier New', Courier, monospace;
     font-weight: 500; /* 텍스트 굵기 정도 */
     font-size: 20px;
+    color: orange;
+    text-decoration: none;
 }
 
-a{
-    color: orange;
-    text-decoration: none; /* 밑줄 유뮤 */
-}
-
-a:hover{  /* 커서 올렸을 때 색상 바뀌는 거 */
-    color: orange;
+.nav-menu:hover{  /* 커서 올렸을 때 색상 바뀌는 거 */
+    color: brown;
     transition: 0.5;
-}
-/* dashboard */
-
-.dashboard{
-    display: flex;
-    flex-direction: column;
-    margin-top: 100px;
-}
-
-.korean-coment{
-    color: black;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-weight: 700;
-    font-size: 50px;
-}
-
-.english-coment{
-    font-family: 'Noto Sans', sans-serif;
-    font-style: italic;
-    font-weight: 500;
-    font-size: 20px;
-    letter-spacing: 1px;
-}
-.sample:hover{
-    background-color: pink;
-}
-.higthlight{
-    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-}
-
-.type:hover{
-    background-color: pink;
-    -webkit-text-fill-color: black; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 1px;
-}
-.type1:hover{
-    background-color: skyblue;
-    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-}
-.type2:hover{
-    background-color: yellowgreen;
-}
-
-/* RECENT WORKS */
-
-.recent-works{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 15px;
-    font-weight: 700;
-    color: lightgray;
-    text-align: right;
-    letter-spacing: 1px;
-    margin-bottom: 95px;
-}
-
-/* footer */
-
-.contact-footer{
-    font-family:'Courier New', Courier, monospace;
-    font-weight: 800;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-decoration-line: underline;
-    margin-bottom: 300px;
-}
-
-i{
-    display: flex;
-    font-size: 30px;
-    padding: 10px;
-}
-
-.profile-section{
-    margin-top: 80px;
 }

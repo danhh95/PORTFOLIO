@@ -1,0 +1,25 @@
+
+.contact{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 800;
+    text-decoration-line: underline overline;
+    text-underline-position: under;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.links{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    margin-bottom: 300px;
+}
+i{
+    display: flex;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.profile-section{
+    margin-top: 80px;
+}

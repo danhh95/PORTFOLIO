@@ -1,0 +1,20 @@
+.mbti_font{
+    margin-bottom: 100px;
+    
+}
+
+
+
+
+
+@keyframes mbti_font
+    { 0% { transform: translate(0, 0); } 
+    100% { transform: translate(100px, 100px); } 
+} 
+
+.mbti_font { 
+    animation-name: mbti_font; 
+}
+
+
+/* 여긴 진짜 모르겠다,,,, 내일 다시 보기ㅜㅜ */
