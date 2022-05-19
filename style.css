@@ -1,0 +1,133 @@
+body{
+    background-color: blanchedalmond;
+    
+}
+
+.frame{ /* 제일 큰 틀 */
+    margin: 30px 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navigator{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between; /* 띄어쓰기 여부 */
+    
+}
+
+li{
+    display: inline;
+    align-self: center;
+    margin: 0;
+    
+}
+
+ul{
+    display: inline;
+    align-self: center;
+    margin: 0;    
+}
+
+.site-name{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: 700;
+    color: chocolate;
+}
+
+.nav-menu{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500; /* 텍스트 굵기 정도 */
+    font-size: 20px;
+}
+
+a{
+    color: orange;
+    text-decoration: none; /* 밑줄 유뮤 */
+}
+
+a:hover{  /* 커서 올렸을 때 색상 바뀌는 거 */
+    color: orange;
+    transition: 0.5;
+}
+/* dashboard */
+
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.korean-coment{
+    color: black;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.english-coment{
+    font-family: 'Noto Sans', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.sample:hover{
+    background-color: pink;
+}
+.higthlight{
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.type:hover{
+    background-color: pink;
+    -webkit-text-fill-color: black; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+}
+.type1:hover{
+    background-color: skyblue;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.type2:hover{
+    background-color: yellowgreen;
+}
+
+/* RECENT WORKS */
+
+.recent-works{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight: 700;
+    color: lightgray;
+    text-align: right;
+    letter-spacing: 1px;
+    margin-bottom: 95px;
+}
+
+/* footer */
+
+.contact-footer{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration-line: underline;
+    margin-bottom: 300px;
+}
+
+i{
+    display: flex;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.profile-section{
+    margin-top: 80px;
+}
