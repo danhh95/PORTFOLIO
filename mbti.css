@@ -1,20 +1,16 @@
-.mbti_font{
-    margin-bottom: 100px;
-    
+
+
+
+/* h2{
+    font-size: 6em;
+    width: 258px;
+    color: white;
+    font-family: sans-serif;
+    margin: 30px;
+    margin-top: 0;
+    animation-name: slide;
 }
 
-
-
-
-
-@keyframes mbti_font
-    { 0% { transform: translate(0, 0); } 
-    100% { transform: translate(100px, 100px); } 
-} 
-
-.mbti_font { 
-    animation-name: mbti_font; 
-}
-
-
-/* 여긴 진짜 모르겠다,,,, 내일 다시 보기ㅜㅜ */
+@keyframes slide {
+   50% {transform: rotate(360deg);}
+} */

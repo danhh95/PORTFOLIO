@@ -2,8 +2,6 @@
 .contact{
     font-family:'Courier New', Courier, monospace;
     font-weight: 800;
-    text-decoration-line: underline overline;
-    text-underline-position: under;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,9 +10,23 @@
     display: flex;
     flex-direction:row;
     justify-content: center;
-    margin-bottom: 300px;
+    margin-bottom: 100px;
+    
 }
+f{
+    color: orange;
+    display: flex;
+    font-size: 30px;
+    padding: 10px;
+}
+
+i:hover{
+    color: brown;
+    transition: 0.5;
+}
+
 i{
+    color: orange;
     display: flex;
     font-size: 30px;
     padding: 10px;
@@ -22,4 +34,13 @@ i{
 
 .profile-section{
     margin-top: 80px;
+}
+
+footer>h5{
+    text-align: center;
+    font-family:'Comfortaa', cursive;
+    font-size: medium;
+    color: burlywood;
+    margin-bottom: 80px;
+    text-decoration-line:overline;
 }

@@ -1,23 +1,4 @@
 
-/* Frame */
-
-body{ /* 전체페이지 색상 */
-    background-color: blanchedalmond;
-    
-}
-
-.frame{ /* 제일 큰 틀 */
-    margin: 30px 150px;
-    display: flex;
-    flex-direction: column;
-}
-
-/* Navigator */
-.navigator{
-    display: flex;
-    flex-direction:row;
-    justify-content: space-between; /* 띄어쓰기 여부 */
-}
 .site-name{
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
@@ -27,15 +8,22 @@ body{ /* 전체페이지 색상 */
 }
 
 .profile-section{
+    justify-content:left;
+    margin: 100px 100px;
+}
+
+.introduction-section{
     display: flex;
-    flex-direction:row;
+    flex-direction: column;
     justify-content:center;
     align-items: flex-start;
-    margin: 100px 100px;
+    margin-top:50px;
+    margin-bottom: 50px;
 }
 
 #profile{
     margin-right: 60px;
+    margin-bottom: 40px;
 }
 
 .introduction>h1{
@@ -47,14 +35,18 @@ body{ /* 전체페이지 색상 */
 
 }
 .introduction>p{
-    font-family:'Noto Sans KR', sans-serif;
     margin-top: 40px;
     margin-bottom: 40px;
 }
 
-.mbti-section>h1{
+h1{
     font-family: 'Comfortaa', cursive;
     margin: 0;
     text-decoration-line:underline;
     text-underline-position: under;
+}
+
+.imgfile{
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
